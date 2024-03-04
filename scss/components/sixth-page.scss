@@ -1,0 +1,39 @@
+.sixth-page {
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    margin-top: var(--m-5);
+    background-image: url(../img/texture-bg.png);
+
+    &__nature{
+        width: 40%;
+
+        &_title{
+            font-weight: var(--bold-font-weight);
+            width: 60%; 
+            font-size: var(--medium-font-size); 
+        }
+
+        &_text{
+            width: 75%;
+            text-align: justify;
+            margin-top: var(--m-2);
+        }
+
+        &_button{
+        padding: 1rem 1.5rem;
+        border-radius: 3rem;
+        font-weight: var(--small-font-weight);
+        background-color: var(--button-color);
+        color: var(--white-color);
+        outline: none;
+        border: none;
+        margin-top: var(--m-2);
+
+        &:hover{
+            transform: scale(0.9);
+            transition: all 0.5s;
+        }
+        }
+    }
+}

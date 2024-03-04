@@ -1,0 +1,55 @@
+.second-page{
+  background-color: var(--white-color);
+}
+
+.card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: var(--m-5);
+  padding: 3rem 0;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #aa2246;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0.2rem;
+    background: transparent;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    &::after {
+      content: "";
+      display: block;
+      width: 4rem;
+      height: 0.2rem;
+      transition: all 0.3s ease;
+      background-color: #aa2246;
+    }
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--m-3);
+}
+
+.explore {
+  color: #aa2246;
+  text-decoration: none;
+  font-style: italic;
+
+  &:hover{
+    border-bottom: 2px solid #aa2246;
+  }
+}

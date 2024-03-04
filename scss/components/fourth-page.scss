@@ -1,0 +1,27 @@
+.fourth-page{
+    background-image: url(../img/testimonial-texture.png);
+}
+
+.travel{
+    margin-top: var(--m-2);
+
+    &__top{
+        text-align: center;
+
+        &_text{
+            font-size: var(--small-font-size);
+            font-weight: var(--bold-font-weight);
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__bottom{
+        display: flex;
+        justify-content: space-around;
+        gap: 5rem;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: var(--m-2) auto;
+    }
+}

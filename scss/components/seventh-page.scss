@@ -1,0 +1,14 @@
+.seventh-page {
+  background-image: url(../img/texture-bg.png);
+}
+
+.client {
+  margin: var(--m-5) 0;
+  text-align: center;
+  &-text {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--small-font-size);
+    font-weight: var(--bold-font-weight);
+  }
+}
