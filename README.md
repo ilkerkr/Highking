@@ -1,5 +1,7 @@
 <h1>Highking</h1>
 
+![Highking-gif](./img/Highking.gif)
+
 [👉click here to login Highking](https://ilkerkr.github.io/Highking/)
 
 <h2> Description</h2>
